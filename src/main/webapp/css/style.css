@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+
+.topnav a {
+    float: left;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    height: border-box;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonGreen {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+}
+
+.buttonGreen:hover {
+    background-color: white;
+    color: black;
+}
+
+.buttonBlue {
+     background-color: #008CBA;
+     color: white;
+     border: 2px solid #008CBA;
+ }
+
+.buttonBlue:hover {
+    background-color: #008CBA;
+    color: black;
+}
